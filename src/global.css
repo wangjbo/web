@@ -1,0 +1,72 @@
+.common {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.common .right-box {
+  position: fixed;
+  top: 80px;
+  left: 70px;
+  z-index: 3;
+}
+.mu-paper.pc-box {
+  width: 50%;
+  background-color: #50585e;
+}
+.mu-paper.pc-box .header {
+  font-size: 0.4rem;
+}
+.mu-paper.pc-box /deep/ .mu-item {
+  height: 40px;
+}
+.mu-paper.pc-box .sub-title {
+  font-size: 0.4rem;
+  padding-left: 16px;
+}
+.mu-paper.pc-box .item {
+  display: flex;
+  justify-content: space-between;
+}
+.mu-paper.pc-box .item .title {
+  display: inline-block;
+  width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.mu-paper.pc-box .pagination {
+  margin: 0.53333rem 0;
+  display: flex;
+  justify-content: center;
+}
+.wap-box {
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.wap-box .sub-title {
+  font-size: 0.48rem;
+  padding: 0.42667rem 0.69333rem 0;
+}
+.wap-box .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.26667rem;
+}
+.wap-box .item .title {
+  display: inline-block;
+  width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.back-fab {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+}
+/*# sourceMappingURL=./global.css.map */
